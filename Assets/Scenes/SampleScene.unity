@@ -119,11 +119,42 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &366418662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6305780718197485484, guid: 5e9af7483434e1e4ea79eb01d9297f0e, type: 3}
+  m_PrefabInstance: {fileID: 1319757497121547373}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &384762403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5525801890998843326, guid: 5e9af7483434e1e4ea79eb01d9297f0e, type: 3}
   m_PrefabInstance: {fileID: 1319757497121547373}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &384762404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366418662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d88a2ad737f904546a8e0aec5aba48ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  walkSpeed: 3
+  flightSpeed: 5
+  ascendSpeed: 5
+  glideFallSpeed: 3
+  fastFallSpeed: 8
+  maxHP: 50
+  maxSP: 15
+  hp: 0
+  sp: 0
+  fireDamageRate: 5
+  healRate: 5
+  flightDrainRate: 2
+  glideDrainRate: 1
+  groundedRegenRate: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,7 +526,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6305780718197485484, guid: 5e9af7483434e1e4ea79eb01d9297f0e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 384762404}
   m_SourcePrefab: {fileID: 100100000, guid: 5e9af7483434e1e4ea79eb01d9297f0e, type: 3}
 --- !u!1001 &2154811667646768639
 PrefabInstance:
@@ -562,6 +596,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 188720154441890071, guid: b345e6b0657e4f646b41f09706b8adbe, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 2083660161455822534, guid: b345e6b0657e4f646b41f09706b8adbe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
