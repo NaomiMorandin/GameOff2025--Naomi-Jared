@@ -11,7 +11,7 @@ public class SliderUI : MonoBehaviour
     {
         // Scrollbars use values from 0–1 only.
         
-         hpBar.fillAmount = player.hp / player.maxHP;
-         spBar.fillAmount = player.sp / player.maxSP;
+        spBar.fillAmount = player.sp / player.maxSP;
+        hpBar.fillAmount = player.hp / player.maxHP;
     }
 }
