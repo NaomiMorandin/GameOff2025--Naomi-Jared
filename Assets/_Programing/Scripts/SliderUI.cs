@@ -4,14 +4,13 @@ using UnityEngine.UI;
 public class SliderUI : MonoBehaviour
 {
     public PlayerController player;  // Drag your player here
-    public Image hpBar;
-    public Image spBar;
+    public Scrollbar hpBar;
+    public Scrollbar spBar;
 
     void Update()
     {
         // Scrollbars use values from 0–1 only.
         
-        spBar.fillAmount = player.sp / player.maxSP;
-        hpBar.fillAmount = player.hp / player.maxHP;
+        spBar.size = player.sp / player.maxSP;
     }
 }
