@@ -448,6 +448,18 @@ PrefabInstance:
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5525801890998843326, guid: 84d5fcf889b708143adec2f237e327e8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.43431
+      objectReference: {fileID: 0}
+    - target: {fileID: 5525801890998843326, guid: 84d5fcf889b708143adec2f237e327e8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.43431
+      objectReference: {fileID: 0}
+    - target: {fileID: 5525801890998843326, guid: 84d5fcf889b708143adec2f237e327e8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.43431
+      objectReference: {fileID: 0}
+    - target: {fileID: 5525801890998843326, guid: 84d5fcf889b708143adec2f237e327e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.056645215
       objectReference: {fileID: 0}
@@ -496,6 +508,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84d5fcf889b708143adec2f237e327e8, type: 3}
+--- !u!114 &1376382115 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7394508243663282806, guid: dd105b68236e10d4c85d987d809a3855, type: 3}
+  m_PrefabInstance: {fileID: 2154811667646768639}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &1537033767
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,8 +549,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SliderUI
   player: {fileID: 2107080356}
-  hpBar: {fileID: 0}
-  spBar: {fileID: 0}
+  hpBar: {fileID: 1865693828}
+  spBar: {fileID: 1376382115}
 --- !u!4 &1537033769
 Transform:
   m_ObjectHideFlags: 0
@@ -543,6 +566,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1865693828 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6456958076967245739, guid: dd105b68236e10d4c85d987d809a3855, type: 3}
+  m_PrefabInstance: {fileID: 2154811667646768639}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!4 &2107080355 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8838949041743603047, guid: 84d5fcf889b708143adec2f237e327e8, type: 3}
